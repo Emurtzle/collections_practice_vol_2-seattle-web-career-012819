@@ -50,6 +50,11 @@ def count_elements (array)
     end
     #binding.pry
   end
+
+  new_hash.each do |k,v|
+
+  end
+
   new_hash
 end
 
