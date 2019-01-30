@@ -61,7 +61,7 @@ def count_elements (array)
     binding.pry
   end
 
-  new_hash
+  new_array
 end
 
 def find_cool (array)
