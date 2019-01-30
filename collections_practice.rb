@@ -47,9 +47,9 @@ def count_elements (array)
     else
       new_hash[element[:name]] += 1
     end
-
     #binding.pry
   end
+  new_hash
 end
 
 def find_cool (array)
