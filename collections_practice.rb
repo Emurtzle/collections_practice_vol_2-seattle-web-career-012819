@@ -51,8 +51,10 @@ def count_elements (array)
     #binding.pry
   end
 
-  new_hash.each do |k,v|
+  temp_hash = {}
 
+  new_hash.each do |k,v|
+    
   end
 
   new_hash
