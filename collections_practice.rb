@@ -48,7 +48,7 @@ def count_elements (array)
       new_hash[element[:name]] += 1
     end
 
-    binding.pry
+    #binding.pry
   end
 end
 
