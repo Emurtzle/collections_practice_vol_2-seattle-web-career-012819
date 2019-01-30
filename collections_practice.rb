@@ -54,6 +54,7 @@ def count_elements (array)
   temp_hash = {}
 
   new_hash.each do |k,v|
+    temp_hash = Hash.new
     temp_hash[:name] = k
     temp_hash[:count] = v
     new_array.push(temp_hash)
