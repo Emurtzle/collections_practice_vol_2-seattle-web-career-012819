@@ -42,6 +42,12 @@ def count_elements (array)
   new_hash = {}
 
   array.each do |element|
+    if new_hash.keys.include?(element[:name]) == false
+      new_hash[element[:name]] = 1
+    else
+      new_hash[element[:name]] += 1
+    end
+
     binding.pry
   end
 end
