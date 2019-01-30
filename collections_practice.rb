@@ -59,8 +59,6 @@ def count_elements (array)
     new_array << temp_hash
   end
     #binding.pry
-  end
-
   new_array
 end
 
