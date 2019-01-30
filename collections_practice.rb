@@ -1,3 +1,5 @@
+require "pry"
+
 def begins_with_r (array)
   array.each do |word|
     if word[0,1] == "r"
@@ -37,7 +39,11 @@ def remove_non_strings(array)
 end
 
 def count_elements (array)
+  new_hash = {}
 
+  array.each do |element|
+    binding.pry
+  end
 end
 
 def find_cool (array)
