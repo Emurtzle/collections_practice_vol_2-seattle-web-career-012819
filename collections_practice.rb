@@ -48,9 +48,9 @@ def count_elements (array)
     else
       new_hash[element[:name]] += 1
     end
-    #binding.pry
   end
 
+  binding.pry
   temp_hash = {}
 
   new_hash.each do |k,v|
