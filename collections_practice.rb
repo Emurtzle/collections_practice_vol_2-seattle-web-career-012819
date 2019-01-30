@@ -57,6 +57,7 @@ def count_elements (array)
     temp_hash[:name] = k
     temp_hash[:count] = v
     new_array << temp_hash
+    binding.pry
   end
     #binding.pry
   new_array
