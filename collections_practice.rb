@@ -56,7 +56,7 @@ def count_elements (array)
   new_hash.each do |k,v|
     temp_hash[:name] = k
     temp_hash[:count] = v
-    new_array << temp_hash
+    new_array.push(temp_hash)
     binding.pry
   end
     #binding.pry
